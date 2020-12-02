@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="piclib-restapi" />
+        <module name="eureka-for-ha-config" />
+        <module name="base-microservice-turbine" />
+        <module name="piclib-client" />
+        <module name="base-microservice-security" />
+        <module name="base-microservice-zuul" />
+        <module name="base-microservice-config" />
+        <module name="piclib-client-zuul" />
+        <module name="pic-web" />
+        <module name="piclib-domain" />
+        <module name="base-microservice-dashboard" />
+        <module name="base-microservice-config3" />
+        <module name="base-microservice-config2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-microservice-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-microservice-config" options="-parameters" />
+      <module name="base-microservice-config2" options="-parameters" />
+      <module name="base-microservice-config3" options="-parameters" />
+      <module name="base-microservice-dashboard" options="-parameters" />
+      <module name="base-microservice-eureka" options="-parameters" />
+      <module name="base-microservice-security" options="-parameters" />
+      <module name="base-microservice-turbine" options="-parameters" />
+      <module name="base-microservice-zuul" options="-parameters" />
+      <module name="eureka-for-ha-config" options="-parameters" />
+      <module name="pic-web" options="-parameters" />
+      <module name="piclib-client" options="-parameters" />
+      <module name="piclib-client-zuul" options="-parameters" />
+      <module name="piclib-domain" options="-parameters" />
+      <module name="piclib-restapi" options="-parameters" />
+    </option>
+  </component>
+</project>

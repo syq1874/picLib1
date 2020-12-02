@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/base-microservice-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-config2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-config3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-turbine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-microservice-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-for-ha-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pic-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/piclib-client-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/piclib-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/piclib-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/piclib-restapi/src/main/java" charset="UTF-8" />
+  </component>
+</project>

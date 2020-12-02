@@ -1,0 +1,26 @@
+server:
+  port: 7101
+
+spring:
+  application:
+    name: microservice-config
+  security:
+    user:
+      name: admin
+      password: a
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/syq1874/picLib.git
+          default-label: main        # 一定要配置，因为github升级后，已经没有 master 分支了， 而config server 默认是 master,  现在已经是 main
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:a@localhost:7301/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: microservice-config1
