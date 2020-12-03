@@ -6,7 +6,7 @@
     <modules>
 
 
-        <!-- 修改测试 -->
+        <!-- 修改测试1 -->
 
         <module>eureka-for-ha-config</module>
         <module>base-microservice-config</module>
