@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="piclib-restapi" />
-        <module name="eureka-for-ha-config" />
-        <module name="base-microservice-turbine" />
-        <module name="piclib-client" />
+        <module name="base-microservice-dashboard" />
+        <module name="base-microservice-config2" />
+        <module name="pic-web" />
         <module name="base-microservice-security" />
+        <module name="eureka-for-ha-config" />
         <module name="base-microservice-zuul" />
         <module name="base-microservice-config" />
         <module name="piclib-client-zuul" />
-        <module name="pic-web" />
+        <module name="piclib-restapi" />
         <module name="piclib-domain" />
-        <module name="base-microservice-dashboard" />
+        <module name="piclib-client" />
         <module name="base-microservice-config3" />
-        <module name="base-microservice-config2" />
+        <module name="base-microservice-turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
